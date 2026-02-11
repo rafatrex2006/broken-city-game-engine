@@ -26,7 +26,6 @@ def load():
         imag = pygame.image.load(f"assets/tiles/city/{i}.png").convert_alpha()
         l_dic[1].insert(-1,pygame.transform.scale(imag,(state.tile_size,state.tile_size)))
     state.l_dic = l_dic
-    print(state.l_dic)
 
     #Enemy sprites
     state.Monster_ani = []
